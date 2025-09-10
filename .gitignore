@@ -1,0 +1,37 @@
+# Virtual environments
+.venv/
+env/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data and model artifacts (keep placeholders)
+data/
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/
+!models/.gitkeep
+
+# Training outputs/checkpoints
+checkpoints/
+outputs/
+runs/
+*.pt
+*.bin
+*.safetensors
+
+# Environment/config secrets
+.env
+.env.*
