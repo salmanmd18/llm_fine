@@ -1,0 +1,38 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+env/
+
+# VCS
+.git/
+.gitignore
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Notebooks and checkpoints
+notebooks/
+.ipynb_checkpoints/
+
+# Training outputs
+checkpoints/
+outputs/
+runs/
+
+# Data (optional, keep processed/model-only in image)
+data/raw/
+data/processed/
+
+# Cache
+.cache/
+hf_cache/
+
+# Uvicorn logs
+*.log

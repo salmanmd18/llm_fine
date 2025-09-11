@@ -10,3 +10,9 @@ scikit-learn==1.4.2
 # API
 fastapi==0.111.0
 uvicorn[standard]==0.29.0
+
+# Compatibility shim for some Torch/Accelerate imports on Windows
+importlib-metadata==6.8.0
+
+# CLI colors for evaluation output (Windows-friendly)
+colorama==0.4.6
